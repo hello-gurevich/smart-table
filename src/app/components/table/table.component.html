@@ -1,0 +1,8 @@
+<table class="table table-dark table-striped">
+  <thead>
+    <tr app-tr [tr]="ths"></tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tr of trs" app-tr [tr]="tr"></tr>
+  </tbody>
+</table>
